@@ -1,0 +1,37 @@
+site_name: APUE 阅读笔记
+site_url: "https://github.com/TaceyWong/apue-note"
+site_author: Tacey Wong
+edit_url: "https://github.com/TaceyWong/apue-note/edit/master/contents/"
+
+docs_dir: "contents"
+
+theme: united
+
+nav:
+    - 主页: index.md
+    - UNIX:
+        - "第1章 UNIX基础知识": "01-UNIX基础知识/note.md"
+        - "第2章 UNIX标准及实现": "02-UNIX标准及实现/note.md"
+    - 文件-数据-IO:
+        - "第3章 文件I/O": "03-文件I-O/note.md"
+        - "第4章 文件和目录": "04-文件和目录/note.md"
+        - "第5章 标准I/O库": "05-标准I-O库/note.md"
+        - "第6章 系统数据文件和信息": "06-系统数据文件和信息/note.md"
+        - "第14章 高级I/O": "14-高级I-O/note.md"
+    - 进程-线程-信号:
+        - "第7章 进程环境": "07-进程环境/note.md"
+        - "第8章 进程控制": "08-进程控制/note.md"
+        - "第9章 进程关系": "09-进程关系/note.md"
+        - "第10章 信号": "10-信号/note.md"
+        - "第11章 线程": "11-线程/note.md"
+        - "第12章 线程控制": "12-线程控制/note.md"
+        - "第13章 守护进程": "13-守护进程/note.md"
+    - 其他:
+        - "Linux环境高级调试": "Advanced-Debugging-in-the-Linux-Environment.md"
+
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
